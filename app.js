@@ -1,18 +1,4 @@
 $(function(){
-  // resize sections to fit page
-  var resizeContent = function(){
-    $('section').css('height', 'auto');
-    var height = $(window).height();
-    $('section').each(function(i, section){
-      var $section = $(section);
-      if ( $section.height() < height ) {
-        $section.height(height);
-      }
-    })
-  };
-  $(window).resize(resizeContent);
-  resizeContent();
-
   // slide to section links
   $('#index a, .navbar-fixed-top a').click(function(e){
     e.preventDefault()
