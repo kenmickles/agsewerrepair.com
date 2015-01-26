@@ -24,7 +24,7 @@ a.navbar-brand img {
 }
 
 section {
-  padding-top: 95px;
+  padding-top: 75px;
 }
 
 section#index {
@@ -66,8 +66,9 @@ section#index {
   html, body, section {
     height: 100%;
   }
-  
+
   section {
+    padding-top: 95px;
     min-height: 1000px;
   }
 }
